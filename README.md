@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 - Tạo khóa API cho OpenAI: https://platform.openai.com/api-keys
 
-### 5. Khởi động Milvus bằng Docker
+### 5. Khởi động Milvus bằng Docker (cần mở docker desktop trước)
 
 ```bash
 docker-compose up --build
