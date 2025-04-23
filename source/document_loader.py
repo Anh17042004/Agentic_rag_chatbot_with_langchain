@@ -52,7 +52,6 @@ class DocumentLoader:
             return UnstructuredHTMLLoader(file_path)
         elif file_extension == '.md':
             return UnstructuredMarkdownLoader(file_path)
-        # Đã loại bỏ xử lý file JSON
         elif file_extension in ['.xls', '.xlsx']:
             return UnstructuredExcelLoader(file_path)
         else:
